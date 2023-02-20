@@ -29,7 +29,7 @@ if (day>(numSkills-1))
 }
 else 
 {
-  skillIdx = day;
+  skillIdx = day-1;
 }
 todaySkillName = "TODAY: " + skillNames[skillIdx];
 todaySkill = skills[skillIdx];
