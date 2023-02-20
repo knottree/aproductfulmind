@@ -23,9 +23,9 @@ const whatisscript = `<embed type="text/html" src="whatIsAPM.html" width="100%" 
 const whatisepisode = `<iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1450036366&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe><div id="whatisscript"></div>`;
 const d = new Date();
 const day = d.getDay();
-if (day>(numSkills-1))
+if (day < 1 || day >5)
 {
-  skillIdx = Math.floor(Math.random() * (numSkills-1));
+  skillIdx = Math.floor(Math.random() * (numSkills));
 }
 else 
 {
