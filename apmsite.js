@@ -39,3 +39,15 @@ document.getElementById("todayskill").innerHTML = todaySkill;
 document.getElementById("todayskillscript").innerHTML = todaySkillScript;
 document.getElementById("whatisepisode").innerHTML = whatisepisode;
 document.getElementById("whatisscript").innerHTML = whatisscript;
+function openSkill() {
+ document.getElementById("coaching").open = false;
+  document.getElementById("whatis").open = false;
+}
+function openCoaching() {
+  document.getElementById("todaydetails").open = false;
+  document.getElementById("whatis").open = false;
+}
+function openWhatIs() {
+  document.getElementById("todaydetails").open = false;
+  document.getElementById("coaching").open = false;
+}
