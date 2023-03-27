@@ -86,13 +86,13 @@ a:active {
 }
 
 #todaydetails {
-animation: open 3s ease-in-out;
+animation: open 1s ease-in-out;
 }
 
 #coaching {
-  animation: open 3.5s ease-in-out;
+  animation: open 2s ease-in-out;
 }
 
 #whatis {
-  animation: open 4s ease-in-out;
+  animation: open 3s ease-in-out;
 }
