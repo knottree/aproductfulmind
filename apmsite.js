@@ -10,6 +10,12 @@ let todaySkillName;
 let todaySkillScript;
 const d = new Date();
 const day = d.getDay();
+document.querySelectorAll('summary:before').forEach(element => {
+  const randomTime = Math.random(); // Generates a number between 0 and 1
+  const transitionTime = `${randomTime}s`; // Convert to seconds
+  element.style.transition = `transform ${transitionTime} ease`;
+});
+
 if (day < 1 || day >5)
 {
   skillIdx = Math.floor(Math.random() * (numSkills));

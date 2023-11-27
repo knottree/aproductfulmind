@@ -32,7 +32,6 @@ summary:before {
   left: 1rem;
   transform: rotate(0);
   transform-origin: .2rem 50%;
-  transition: .5s transform ease;
 }
 
 details[open] > summary:before {
